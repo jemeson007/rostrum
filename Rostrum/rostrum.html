@@ -1,0 +1,56 @@
+<!doctype html>
+<!--
+  rostrum.html
+  Rostrum browser document
+-->  
+<html>
+<head>
+  <!--ie9+ rendering support for latest features -->
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title> Rostrum </title>
+
+	<!--third party stylesheets -->
+
+	<!-- our stylesheets -->
+	<link rel="stylesheet" href="css/rostrum.css" type="text/css" />
+	<link rel="stylesheet" href="css/rostrum.chat.css" type="text/css" />
+	<link rel="stylesheet" href="css/rostrum.shell.css" type ="text/css" />
+
+	<!--third party javascript -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+	</script>
+	<script src = "js/jq/jquery-1.12.3.js"></script>
+	<script src = "js/jq/jquery.uriAnchor.js"></script> 
+
+
+	<!--our javascript -->
+	<script src ="js/rostrum.js"></script>
+	<script src ="js/rostrum.util.js"></script>
+	<script src ="js/rostrum.model.js"></script>
+	<script src ="js/rostrum.shell.js"></script>
+	<script src ="js/rostrum.chat.js"></script>
+
+	<script>
+		$(function(){
+			rostrum.initModule($('#rostrum'));
+		});
+	</script>
+</head>
+<body>
+	<div id = "rostrum">
+<!-- var main_html = String()
+	+ '<div class="rostrum-shell-head">'
+	+ '<div class="rostrum-shell-head-logo"></div>'
+	+ '<div class="rostrum-shell-head-acct"></div>'
+	+ '<div class="rostrum-shell-head-search"></div>'
+	+ '</div>'
+	+ '<div class="rostrum-shell-main">'
+	+ '<div class="rostrum-shell-main-content"></div>'
+	+ '</div>'
+	+ '<div class="rostrum-shell-foot"></div>'
+	+ '<div class="rostrum-shell-chat"></div>'
+	+ '<div class="rostrum-shell-modal"></div>';
+    </div> -->
+</body>
+</html>

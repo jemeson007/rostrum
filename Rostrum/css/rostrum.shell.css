@@ -1,0 +1,84 @@
+/* 
+ *
+ *rostrum.shell.cs
+ *Rostrum shell styles
+ */
+
+  .rostrum-shell-head, .rostrum-shell-head-logo, .rostrum-shell-head-acct,
+	  .rostrum-shell-head-search, .rostrum-shell-main, .rostrum-shell-main-content, 
+	  .rostrum-shell-foot, /*.rostrum-shell-chat, */
+	  .rostrum-shell-modal{
+	    position : absolute;
+	  }
+	  .rostrum-shell-head{
+	  	top:0;
+	  	left:0;
+	  	right:0;
+	  	height:40px;
+	  }
+	  .rostrum-shell-head-logo{
+	  	top:4px;
+	  	left:4px;
+	  	height:32px;
+	  	width:128px;
+	  	background: orange;
+	  }
+	  .rostrum-shell-head-acct{
+	  	top:4px;
+	  	right:0px;
+	  	width: 64px;
+	  	height:32px;
+	  	background:green;
+	  }
+	  .rostrum-shell-head-search{
+	  	top:4px;
+	  	right:64px;
+	  	width: 248px;
+	  	height:32px;
+	  	background: blue;
+	  }
+	  .rostrum-shell-main{
+	  	top:40px;
+	  	left:0;
+	  	bottom: 40px;
+	  	right:0;
+	  }
+	  .rostrum-shell-main-content{
+	  	top:0;
+	  	bottom:0;
+	  	left:0;
+	  	right:0px;
+	  	background: #ddd;
+	  }
+	  .rostrum-shell-foot{
+	  	bottom:0;
+	  	left:0;
+	  	right:0;
+	  	height:40px;
+	  }
+	/*  .rostrum-shell-chat{
+	  	bottom:0;
+	  	right:0;
+	  	width:300px;
+	  	height:15px;
+	  	cursor: pointer;
+	  	background: red;
+	  	border-radius: 5px 0 0 0;
+	  	z-index: 1;
+	  }
+
+	  .rostrum-shell-chat: hover{
+	  	background:#a00;
+	  }*/
+	  .rostrum-shell-modal{
+	  	margin-top: -200px;
+	  	margin-left: -200px;
+	  	top:50%;
+	  	left:50%;
+	  	width:400px;
+	  	height:400px;
+	  	background: #fff;
+	  	border-radius: 3px;
+	  	z-index: 2;
+	  	display: none;
+	  }
